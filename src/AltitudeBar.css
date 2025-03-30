@@ -1,0 +1,46 @@
+.AltitudeBar{
+    position: relative;
+    width: 100px; 
+    height: 300px;
+    margin: 50px auto;
+    margin-left: 50px;
+    border:4px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the image container */
+.bar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.value {
+    position: absolute;
+    transform: translateX(-50%); /* Center the values in the bar */
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+}
+
+
+  
+  /* Style for the arrow */
+.arrow {
+    position: absolute;
+    right: 100%; /* Keep the arrow inside the bar */
+    font-size: 30px; /* Smaller arrow */
+    color: red;
+    transform: translateY(-50%);
+  }
+  

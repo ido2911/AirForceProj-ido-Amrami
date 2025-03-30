@@ -1,0 +1,19 @@
+.FlightVisuals{
+    display: flex;           /* Align children horizontally */
+    align-items: center;     /* Vertically center the items */
+    width: 100%;             /* Ensure it uses the full width of the container */
+    gap: 150px;               /* Add spacing between elements */
+}
+
+
+.AltitudeBar {
+    margin-right: auto; /*Push the AltitudeBar to the left */
+  }
+  
+.HisCircle {
+    margin: 0 auto; /* Ensure the HisCircle stays centered */
+  }
+  
+.AdiCircle {
+    margin-left: auto; /* Push the ColorChangingCircle to the right */
+  }

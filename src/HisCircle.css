@@ -1,0 +1,62 @@
+    .HisCircle {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px; /* Adjust as needed */
+    }
+    
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform 0.3s ease-in-out; /* Smooth rotation */
+    }
+    
+    .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 3px solid black;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    /*Note: arrows have the tranform function because I originaly changed them isted of the circle*/
+    .upward-arrow {
+        width: 4px;
+        height: 80px; /* Half the circle's size */
+        background-color: red;
+        position: absolute;
+        top: 40%; /* Vertically center the arrow */
+        left: 46.5%; /* Horizontally center the arrow */
+        transform: translate(-50%, -100%); /* Adjust position so the arrow starts at the center */
+    }
+
+    .upward-arrow::after{
+        content: "";
+        position: absolute;
+        bottom: 100%; /* Place it above the red line */
+        left: 50%;
+        transform: translateX(-50%);
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 12px solid red; /* Red arrowhead */
+    }
+
+    
+    /* Positioning Degree Labels */
+    .degree {
+        position: absolute;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .degree-0 { top: -20px; left: 50%; transform: translateX(-50%); }
+    .degree-90 { right: -20px; top: 50%; transform: translateY(-50%); }
+    .degree-180 { bottom: -20px; left: 50%; transform: translateX(-50%); }
+    .degree-270 { left: -20px; top: 50%; transform: translateY(-50%); }
+    

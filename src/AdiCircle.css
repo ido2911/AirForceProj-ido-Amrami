@@ -1,0 +1,15 @@
+.AdiCircle {
+    display: flex;
+    justify-content: flex-end;  /* Aligns the circle to the right */
+    margin-right: 50px;
+    align-items: center;
+    height: 300px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  /* Makes it a circle */
+    border: 3px solid black; 
+    position: relative;
+}
