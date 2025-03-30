@@ -4,6 +4,7 @@ A project made for the air force
 I learn all of this this weekend so Im sorry if it doesn't look good
 
 ## Installation
+go to main branch
 run $env:NODE_OPTIONS="--openssl-legacy-provider" in powershell
 run node server.js
 run npm start
