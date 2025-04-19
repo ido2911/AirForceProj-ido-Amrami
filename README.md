@@ -1,88 +1,34 @@
-<<<<<<< HEAD
-# AirForceProj
-A project made for the air force
-I learn all of this this weekend so Im sorry if it doesn't look good
+# ✈️ Flight Data Visualizer
 
-## Installation
-go to main branch
-run $env:NODE_OPTIONS="--openssl-legacy-provider" in powershell
-run node server.js
-run npm start
+This project is a full-stack web application built with **React**, **Node.js**, and **MongoDB**. It allows users to submit flight instrument data (Altitude, HIS, ADI), stores the data in a database, and visualizes it using interactive charts.
 
+## 🚀 Features
 
-## Usage
-if there are no entries in the database nothing will show.
-go to the + button at the top and add an entry
-after that you can visualize the data or see the values
-=======
-# Getting Started with Create React App
+- Input form for flight data:
+  - Altitude
+  - HIS (Horizontal Situation Indicator)
+  - ADI (Attitude Direction Indicator)
+- Validates input ranges
+- Saves data to MongoDB
+- Retrieves and displays the latest flight data
+- Renders a dynamic chart using Recharts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧰 Tech Stack
 
-## Available Scripts
+- **Frontend**: React, Axios, Recharts
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
 
-In the project directory, you can run:
+## 📦 Installation
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Make sure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js
+- npm (or yarn)
+- MongoDB
 
-### `npm test`
+##Notes
+I learned the tech stack and completed this entire project in 2 days
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 19d38a0 (Initialize project using Create React App)
