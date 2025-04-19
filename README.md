@@ -29,6 +29,8 @@ Make sure you have the following installed:
 - npm (or yarn)
 - MongoDB
 
-##Notes
-I learned the tech stack and completed this entire project in 2 days
+## Notes
+- I learned the tech stack and completed this entire project in 2 days
+- make sure you run $env:NODE_OPTIONS="--openssl-legacy-provider" before running npm start
+
 
